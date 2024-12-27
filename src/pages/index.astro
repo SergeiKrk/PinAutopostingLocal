@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+---
+
+<!-- You can replace the card's data with your own here. -->
+<BaseLayout title="Personal Card Portfolio Astro" description="Meta description. Here goes your page description. Provide a clear and concise summary of the content.">
+	<Card
+	  name="PinAutoposting"
+	  position="Автоматизация постинга"
+	  aboutMe={`Это локальное приложение для удобного управления и автоматизации публикации пинов на платформе Pinterest. Данные хранятся исключительно на вашем устройстве, обеспечивая полную конфиденциальность. Приложение создано для личного использования и не требует установки дополнительных сервисов.`}
+	  cvLink="/files/Privacy-Policy.pdf"
+	  profileImage="/images/Pinterest-logo.png"
+	/>
+</BaseLayout>
